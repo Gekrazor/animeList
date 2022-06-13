@@ -24,26 +24,19 @@ class ViewController: UIViewController {
         }
     }
     
-    
     @IBOutlet weak var cancelButton: UIBarButtonItem!
-    
     
     @IBAction func cancel(_ sender: UIBarButtonItem) {
         self.navigationController?.popViewController(animated: true)
         self.dismiss(animated: true, completion: nil)
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
         
         if let item = item {
             nameTextField.text = item.name
         }
-        
     }
 }
 

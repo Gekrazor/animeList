@@ -21,9 +21,9 @@ class Item: NSObject, NSCoding {
         self.init(name: name)
     }
     
-        func encode(with aCoder: NSCoder) {
+    func encode(with aCoder: NSCoder) {
         aCoder.encode(name, forKey: "name")
-        }
+    }
     static let Dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
     
     static let ArchiveURL = Dir.appendingPathComponent("items")

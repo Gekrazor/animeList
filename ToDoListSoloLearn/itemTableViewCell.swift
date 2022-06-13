@@ -8,9 +8,6 @@
 import UIKit
 
 class itemTableViewCell: UITableViewCell {
-
-
-    
     
     @IBOutlet weak var itemInLabel: UILabel!
     
@@ -18,11 +15,10 @@ class itemTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
-
 }

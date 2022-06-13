@@ -12,8 +12,6 @@
 		2302271D26F25C6C00F141B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2302271C26F25C6C00F141B8 /* ViewController.swift */; };
 		2302272026F25C6C00F141B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2302271E26F25C6C00F141B8 /* Main.storyboard */; };
 		2302272526F25C6F00F141B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2302272326F25C6F00F141B8 /* LaunchScreen.storyboard */; };
-		2302273026F25C6F00F141B8 /* ToDoListSoloLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2302272F26F25C6F00F141B8 /* ToDoListSoloLearnTests.swift */; };
-		2302273B26F25C6F00F141B8 /* ToDoListSoloLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2302273A26F25C6F00F141B8 /* ToDoListSoloLearnUITests.swift */; };
 		237B009926F3CCFC00273B48 /* itemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237B009826F3CCFC00273B48 /* itemTableViewCell.swift */; };
 		237B00A326F3E0DB00273B48 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237B00A226F3E0DB00273B48 /* item.swift */; };
 		237B00A726F3E8F400273B48 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237B00A626F3E8F400273B48 /* TableViewController.swift */; };
@@ -46,11 +44,7 @@
 		2302272426F25C6F00F141B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2302272626F25C6F00F141B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2302272B26F25C6F00F141B8 /* ToDoListSoloLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListSoloLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2302272F26F25C6F00F141B8 /* ToDoListSoloLearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListSoloLearnTests.swift; sourceTree = "<group>"; };
-		2302273126F25C6F00F141B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2302273626F25C6F00F141B8 /* ToDoListSoloLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListSoloLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2302273A26F25C6F00F141B8 /* ToDoListSoloLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListSoloLearnUITests.swift; sourceTree = "<group>"; };
-		2302273C26F25C6F00F141B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		236CB29027A9A79900CF2ACC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		237B009826F3CCFC00273B48 /* itemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemTableViewCell.swift; sourceTree = "<group>"; };
 		237B00A226F3E0DB00273B48 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
@@ -87,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				2302271726F25C6C00F141B8 /* ToDoListSoloLearn */,
-				2302272E26F25C6F00F141B8 /* ToDoListSoloLearnTests */,
-				2302273926F25C6F00F141B8 /* ToDoListSoloLearnUITests */,
 				2302271626F25C6C00F141B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,24 +111,6 @@
 				23E48E2427039414002BF5A5 /* Assets.xcassets */,
 			);
 			path = ToDoListSoloLearn;
-			sourceTree = "<group>";
-		};
-		2302272E26F25C6F00F141B8 /* ToDoListSoloLearnTests */ = {
-			isa = PBXGroup;
-			children = (
-				2302272F26F25C6F00F141B8 /* ToDoListSoloLearnTests.swift */,
-				2302273126F25C6F00F141B8 /* Info.plist */,
-			);
-			path = ToDoListSoloLearnTests;
-			sourceTree = "<group>";
-		};
-		2302273926F25C6F00F141B8 /* ToDoListSoloLearnUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2302273A26F25C6F00F141B8 /* ToDoListSoloLearnUITests.swift */,
-				2302273C26F25C6F00F141B8 /* Info.plist */,
-			);
-			path = ToDoListSoloLearnUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2302273026F25C6F00F141B8 /* ToDoListSoloLearnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2302273B26F25C6F00F141B8 /* ToDoListSoloLearnUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
