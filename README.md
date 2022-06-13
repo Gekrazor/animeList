@@ -1,10 +1,15 @@
-# Anime list to watch
+# Anime List
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
 
-## Start of working
-Anime list - simple IOS app for use this app you should have a smarthone on IOS base
+## General info
+This project is created to increase my basic swift skills.
+![Simulator Screen Shot - iPhone 11 - 2022-06-13 at 19 06 17](https://user-images.githubusercontent.com/85807730/173397267-aa4f8c61-028e-4980-8bec-bffcd68a5a1c.png)
 
-## Setup from App Store
-Just find it in App Store in Search and tap "Get"
-
-## How to use
-Add your favorite anime what you want to watch and remove one what you already watched.
+## Technologies
+Project is created with:
+* Swift
+* UIKit
+* StoryBoard
+* CoreData
